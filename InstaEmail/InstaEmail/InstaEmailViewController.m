@@ -130,7 +130,7 @@
             if ([MFMailComposeViewController canSendMail]) {
                 MFMailComposeViewController* mailController = [[MFMailComposeViewController alloc] init];
                 mailController.mailComposeDelegate = self;
-                [mailController setSubject:@"Hello Renee!"];
+                [mailController setSubject:@"Hello from Alex!"];
                 [mailController setMessageBody: messageText isHTML:NO];
                 // deprecated
                 // [self presentModalViewController:mailController animated:YES];
